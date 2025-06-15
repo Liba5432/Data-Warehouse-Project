@@ -18,7 +18,7 @@ USE master;
 --Drop and recreate the 'DataWarehouse' database
 IF EXISTS (SELECT 1 FROM sys.databases WHERE name = 'DataWarehouse')
 BEGIN
-	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE;
+	ALTER DATABASE DataWarehouse SET SINGLE_USER WITH ROLLBACK IMMEDIATE; --SET SINGLE_USER: only one user can access the DB at a time - Necessary before dropping the database, as other users might be using it. WITH ROLLBACK IMMEDIATE: Rolls back any active transactions immediately and disconnects all users - Ensures that no ongoing transactions block the database from being dropped.
 	DROP DATABASE DataWarehouse;
 END;
 GO
