@@ -5,7 +5,7 @@ In this project, I built a data warehouse using SQL Server. I collected data fro
 - [Project Requirements](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/docs/project_requirements.md)
 - [Naming Convention](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/docs/naming_convention.md): *Conventions used across scripts and tables*
 - [Datasets](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/datasets): *Original CRM and ERP CSVs*
-- [Notion Project Steps] (https://www.notion.so/Data-Warehouse-Project-22c7873853dd801286dcdc81ce2daecd?source=copy_link)
+- [Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-22c7873853dd801286dcdc81ce2daecd?source=copy_link)
 ---
 
 ### 🧠 Datawarehouse Approach
@@ -25,11 +25,13 @@ This model separates data into three layers:
 This visualization maps how files move from the source systems through each processing layer into the warehouse.
 
 ![image](https://github.com/user-attachments/assets/1357cc52-cc93-4661-9ae8-b3f7eef4450a)
+
 ---
 
 ### 🔍 Bronze, Silver, Gold Layer Guide
 
 ![image](https://github.com/user-attachments/assets/f0640eaa-8f03-4313-84cf-14163dc63eb7)
+
 ---
 
 ### 🗄️ Initial Setup – Database & Schemas
