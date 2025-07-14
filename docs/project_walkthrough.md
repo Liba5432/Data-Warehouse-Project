@@ -92,7 +92,7 @@ Process Steps:
 ### 🔗 Data Integration
 Before creating the silver tables, the data in the bronze layer was reviewed to understand how the tables were connected (like CustomerID linking data from CRM and ERP). This helped write clearer transformation steps.
 
-![image](https://github.com/user-attachments/assets/a4ef5148-6f7a-4cc1-95bc-6369292c838b)
+![image](https://github.com/user-attachments/assets/b4647599-d4ff-4624-9d90-06e960d4f7d0)
 
 ### 🛠️ Coding and Validating 
 
@@ -112,6 +112,12 @@ In this final layer, I modeled the cleaned data into dimensions and facts that s
 
 Process Steps:
 
+![image](https://github.com/user-attachments/assets/fdd0c351-759e-4fd0-95c7-5bdae295b26a)
+
+### 🔗 Data Integration (Revised)
+Once the silver layer data was refined, related business entities—such as sales, customers, and products—were organized into structured formats for analysis.
+
+![image](https://github.com/user-attachments/assets/c8d6633d-746e-4c33-b3ac-28fb705ab224)
 
 
 
