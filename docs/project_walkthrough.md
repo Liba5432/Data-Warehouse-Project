@@ -119,7 +119,47 @@ Once the silver layer data was refined, related business entities—such as sale
 
 ![image](https://github.com/user-attachments/assets/c8d6633d-746e-4c33-b3ac-28fb705ab224)
 
+### 🛠️ Coding and Validating
 
+[DDL Script for Silver Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/gold/ddl_gold.sql) - *Creates star schema views for the gold layer*
+
+These views are now suitable for use in BI tools for reporting and data-driven decision-making.
+
+[Data Quality Check for Gold Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/tests/quality_checks_gold.sql) - *Ensures accuracy of final outputs*
+
+### ⭐ Data Model - Star Schema 
+
+In this schema:
+- fact_sales contains events like transactions
+- dim_customers, dim_products store attributes
+- **Entity Connections**:
+  - One customer (in dim_customers) can have zero, one, or many related transactions in fact_sales
+  - But every transaction must be linked to a valid customer
+- The structure makes it easier to filter, group, and explore the data in reports
+
+![image](https://github.com/user-attachments/assets/e0245c2b-10b8-47c2-af5c-e3bc78e5dad5)
+
+---
+
+### ➡️ Data Flow Diagram
+
+This diagram illustrates the journey from raw input to polished outputs, helping trace any issue back to its origin:
+
+![image](https://github.com/user-attachments/assets/3de3d113-6872-4dd7-82c8-0785ce363421)
+
+---
+
+### 📘 Data Catalog
+
+The Gold Layer’s tables are documented in the data catalog, which defines each table’s role, columns, and business use.
+
+[Data Catalog](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/docs/data_catalog.md)
+
+---
+
+*Note: Diagrams were made using draw.io*
+
+[Back to Project Repo](https://github.com/Liba5432/Data-Warehouse-Project/tree/main)
 
 
 
