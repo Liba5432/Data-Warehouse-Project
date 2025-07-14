@@ -71,7 +71,46 @@ The files were reviewed alongside any available documentation or input from data
 
 ![image](https://github.com/user-attachments/assets/bf601bb5-4018-4e91-b670-4cffe2710145)
 
+### 🛠️ Coding and Validating 
 
+[DDL Script for Silver Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/bronze/ddl_bronze.SQL) - *Creates the bronze tables*
+
+[Stored Procedure for Bronze Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/bronze/proc_load_bronze.sql) - *Uses `BULK INSERT` to import CSV data*
+
+Bronze tables were created using a DDL script. A stored procedure loaded data from CSV files into these tables using BULK INSERT. After loading, simple checks were done to confirm row counts and correct column alignment.
+
+---
+
+### 🥈 Silver Layer – Data Cleaning & Refinement
+
+In the Silver Layer, the focus is on preparing clean, usable datasets by removing duplicates, correcting errors, and enforcing formats.
+
+Process Steps:
+
+![image](https://github.com/user-attachments/assets/87c72f27-422e-425e-8d45-9c54bc955b6a)
+
+### 🔗 Data Integration
+Before creating the silver tables, the data in the bronze layer was reviewed to understand how the tables were connected (like CustomerID linking data from CRM and ERP). This helped write clearer transformation steps.
+
+![image](https://github.com/user-attachments/assets/a4ef5148-6f7a-4cc1-95bc-6369292c838b)
+
+### 🛠️ Coding and Validating 
+
+[DDL Script for Silver Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/silver/ddl_silver.sql) - *Sets up the structure for the cleaned (silver) tables.*
+
+[ETL Stored Procedure for Silver Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/silver/proc_load_silver.sql) - *Applies cleaning rules and loads the data into silver tables.*
+
+[Data Quality Check for Silver Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/tests/quality_checks_silver.sql) - *Verifies the quality of cleaned data in the silver layer*
+
+Silver tables were built with an updated DDL script. The ETL procedure extracted data from Bronze, cleaned it, and inserted it into the Silver tables. Data quality was checked before and after loading.
+
+---
+
+### 🥇 Gold Layer – Business-Ready Data
+
+In this final layer, I modeled the cleaned data into dimensions and facts that support clear analysis, reporting, and business understanding.
+
+Process Steps:
 
 
 
