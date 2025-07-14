@@ -157,7 +157,7 @@ The Gold Layer’s tables are documented in the data catalog, which defines each
 
 ---
 
-> **Note:**  Diagrams were made using [draw.io](https://www.drawio.com/)
+> **Note:**  Diagrams were made using [draw.io](https://www.drawio.com/).
 
 > [Back to Project Repo](https://github.com/Liba5432/Data-Warehouse-Project/tree/main)
 
