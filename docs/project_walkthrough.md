@@ -65,11 +65,11 @@ The Bronze Layer captures data in its untouched format straight from CSV files s
 
 Process Steps:
 
-[!image](https://github.com/user-attachments/assets/a43d7f8f-af04-4a4a-8e93-bbb136fea6d9)
+![image](https://github.com/user-attachments/assets/a43d7f8f-af04-4a4a-8e93-bbb136fea6d9)
 
 The files were reviewed alongside any available documentation or input from data owners to identify field formats, separators, and structural patterns.
 
-[!image](https://github.com/user-attachments/assets/bf601bb5-4018-4e91-b670-4cffe2710145)
+![image](https://github.com/user-attachments/assets/bf601bb5-4018-4e91-b670-4cffe2710145)
 
 
 
