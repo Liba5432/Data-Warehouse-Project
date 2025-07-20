@@ -40,4 +40,4 @@ Here’s what the project includes, explained simply:
 ---
 
 ## 🛠️ Important Links & Tools:
-🗃️ [**Datasets**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/datasets)|📚 [**Project Docs**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/docs)|🧩[**Layer Scripts (DDL & Procedures)**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/scripts)|🧪 [**Quality Checks**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/tests)
+🗃️[**Datasets**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/datasets)|📚[**Project Docs**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/docs)|🧩[**Layer Scripts (DDL & Procedures)**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/scripts)|🧪[**Quality Checks**](https://github.com/Liba5432/Data-Warehouse-Project/tree/main/tests)
