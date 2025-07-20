@@ -36,7 +36,7 @@ This visualization maps how files move from the source systems through each proc
 
 ### 🗄️ Initial Setup – Database & Schemas
 
-The setup was initialized in SQL Server Management Studio (SSMS) using a script that creates a new database named DataWarehouse. If an existing version of the database is found, it is dropped and recreated. The script also defines three schemas — bronze, silver, and gold — which represent the layers of the Medallion Architecture.
+The setup was initialized in SQL Server Management Studio (SSMS) using a script that creates a new database named DataWarehouse. If an existing version of the database is found, it is dropped and recreated. The script also defines three schemas: bronze, silver, and gold, which represent the layers of the Medallion Architecture.
 
 [Database & Schemas Script](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/scripts/init_database.sql)
 
@@ -59,7 +59,7 @@ The diagram below highlights various techniques in an ETL (Extraction, Transform
 
 ---
 
-## 🥉 Bronze Layer – Raw Input Storage
+## 🥉 Bronze Layer (Raw Input Storage)
 
 The Bronze Layer captures data in its untouched format straight from CSV files sourced from CRM and ERP systems. This preserves traceability and makes debugging easier.
 
@@ -81,7 +81,7 @@ Bronze tables were created using a DDL script. A stored procedure loaded data fr
 
 ---
 
-### 🥈 Silver Layer – Data Cleaning & Refinement
+### 🥈 Silver Layer (Data Cleaning & Refinement)
 
 In the Silver Layer, the focus is on preparing clean, usable datasets by removing duplicates, correcting errors, and enforcing formats.
 
@@ -106,7 +106,7 @@ Silver tables were built with an updated DDL script. The ETL procedure extracted
 
 ---
 
-### 🥇 Gold Layer – Business-Ready Data
+### 🥇 Gold Layer (Business-Ready Data)
 
 In this final layer, I modeled the cleaned data into dimensions and facts that support clear analysis, reporting, and business understanding.
 
@@ -127,7 +127,7 @@ These views are now suitable for use in BI tools for reporting and data-driven d
 
 [Data Quality Check for Gold Layer](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/tests/quality_checks_gold.sql) - *Ensures accuracy of final outputs*
 
-### ⭐ Data Model - Star Schema 
+### ⭐ Data Model (Star Schema) 
 
 In this schema:
 - fact_sales contains events like transactions
