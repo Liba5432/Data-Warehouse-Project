@@ -35,8 +35,8 @@ Here’s what the project includes, explained simply:
 ---
 ## 🎬 Project Walkthrough
 
-> 🗺️ Explore a full step-by-step guide of the project here:
-> ✨ [**Project Walkthrough**](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/docs/project_walkthrough.md)
+> 🗺️ Explore a full step-by-step guide of the project here:  
+> ✨ [**Project Walkthrough**](https://github.com/Liba5432/Data-Warehouse-Project/blob/main/docs/project_walkthrough.md) 
 ---
 
 ##🛠️ Important Links & Tools:
