@@ -2,7 +2,7 @@
 
 In this project, I built a data warehouse using SQL Server. I collected data from various sources (ETL), structured it clearly (data modeling), following best practices to ensure the system is efficient, reliable, and easy to use.
 
-[Notion Project Steps](https://www.notion.so/Data-Warehouse-Project-22c7873853dd801286dcdc81ce2daecd?source=copy_link)
+[Project Roadmap (Notion)](https://www.notion.so/Data-Warehouse-Project-22c7873853dd801286dcdc81ce2daecd?source=copy_link)
 
 ---
 ## 🏗️ Data Architecture
